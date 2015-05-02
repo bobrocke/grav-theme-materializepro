@@ -5,6 +5,9 @@ use Grav\Common\Theme;
 
 class MaterializePro extends Theme
 {
+	// Materializer Pro plugin will look for this class var to know it should load
+	public $load_materializerpro_plugin = true;
+
 	public static function getSubscribedEvents()
 	{
 		return [

@@ -1,0 +1,334 @@
+h1 {
+	font-size: 2.5rem;
+	line-height: 3.75rem;
+	margin: 2.5rem 0 0 0;
+}
+
+h2 {
+	font-size: 2.5rem;
+	line-height: 3.75rem;
+	margin: 2.5rem 0 0 0;
+}
+
+h3 {
+	font-size: 2rem;
+	line-height: 3rem;
+	margin: 2rem 0 0 0;
+}
+
+h4 {
+	font-size: 1.75rem;
+	line-height: 2.63rem;
+	margin: 1.75rem 0 0 0;
+}
+
+h5 {
+	font-size: 1.5rem;
+	line-height: 2.25rem;
+	margin: 1.5rem 0 0 0;
+}
+
+h6 {
+	font-size: 1.25rem;
+	line-height: 1.88rem;
+	margin: 1.25rem 0 0 0;
+}
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+	margin-top: 0;
+}
+
+h1 + ul, h2 + ul, h3 + ul, h4 + ul, h5 + ul, h6 + ul {
+	margin-top: 0;
+}
+
+h1 + ol, h2 + ol, h3 + ol, h4 + ol, h5 + ol, h6 + ol {
+	margin-top: 0;
+}
+
+p, ul, ol, pre, code {
+	margin-bottom: 0;
+}
+
+ul, {
+	margin-left: 1.5rem;
+}
+
+a:hover {
+	color: $off-black;
+};
+
+a.btn {
+	&:hover {
+		color: black;
+	}
+}
+
+.logo {
+	margin-top: 6px;
+	height: 52px;
+	width: 52px;
+	path {
+		fill: white;
+	}
+}
+
+.nav-wrapper a {
+	&:hover {
+		color: black;
+	}
+	i {
+		position: relative;
+		font-size: 1.3rem;
+		right: -0.05em;
+	}
+	span {
+		position: relative;
+		top: -0.15em;
+	}
+}
+
+a.button-collapse i.mdi.mdi-menu {
+	font-size: 2.5em;
+}
+
+nav .nav-wrapper .mdi {
+	display: inline-block;
+}
+
+li.disabled {
+	color: rgba(50, 50, 50, 0.2);
+}
+
+.tags a, .header-tags a {
+	display: inline-block;
+	padding: 0;
+	margin-bottom: .2rem;
+	:hover {
+		color: black;
+	}
+}
+
+span.list-blog-date {
+	float: right;
+}
+
+span.badge {
+	float: none;
+	position: relative;
+	right: 0;
+	padding: 4px 6px 4px 6px;
+}
+
+span.badge.new::after {
+	content: "";
+}
+
+.footer-copyright .container a {
+	font-weight: 500;
+	&:hover {
+		color: white;
+	}
+}
+
+.header {
+	background-color: $primary-color-light;
+	text-align: center;
+	h1 {
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+		font-size: 4rem;
+		padding-top: 3rem;
+		color: #FFFFFF;
+	}
+	h2 {
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;
+		font-size: 2rem;
+		padding-bottom: 2rem;
+		color: #FFFFFF;
+	}
+}
+
+.breadcrumbs {
+	margin-top: 1.5rem;
+	a {
+		vertical-align: top;
+	}
+}
+
+.btn {
+	margin-bottom: 1rem;
+}
+
+i.left {
+	margin-right: 0.5rem;
+}
+
+i.right {
+	margin-left: 0.5rem;
+}
+
+span.badge.new {
+	letter-spacing: 1px;
+}
+
+.list-blog-header {
+	position: relative;
+	h4 {
+		margin-bottom: 0.5rem;
+	}
+
+	img {
+		display: block;
+		margin-top: 1rem;
+		border-radius: 0.25rem;
+		clear: both;
+	}
+}
+
+.pagination {
+	text-align: center;
+	display: inline-block;
+}
+
+.previous {
+	float: right;
+}
+
+.modular .features,
+.modular .callout {
+	margin-top: 3rem;
+	h2 {
+		margin-bottom: 0;
+		font-weight: 500;
+		font-size: 1.75rem;
+		line-height: 2rem;
+	}
+	h3 {
+		margin-top: 0;
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+	}
+	h4 {
+		font-size: 1.5rem;
+	}
+}
+
+.modular .callout h2 {
+	margin-top: 0.5em;
+}
+
+.modular .features .feature {
+	vertical-align: top;
+}
+
+.features.big .feature-content {
+	padding-right: 2rem;
+	&.push {
+		margin-left: 4rem;
+	}
+}
+
+.features.big .feature {
+	margin: 2rem 0;
+	h4 {
+		text-align: left;
+		margin: 0;
+	}
+	i {
+		float: left;
+		font-size: 3rem;
+		color: $primary-color;
+	}
+}
+
+.features.small .feature {
+	margin-top: 2rem;
+	h4 {
+		font-size: 1.125rem;
+	}
+	i {
+		font-size: 3rem;
+		color: $primary-color;
+	}
+}
+
+.features.small .feature-content {
+	h4 {
+		margin-top: 0;
+	}
+}
+
+.feature-content {
+	p {
+		text-align: left;
+		margin: 0;
+	}
+}
+
+.callout {
+	background: #F0F0F0;
+	padding: 2rem 2rem;
+	.align-right {
+		float: right;
+		margin-left: 1rem;
+	}
+}
+
+.centered {
+	display: block;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 993px) {
+	.container {
+		width: 90%;
+	}
+}
+
+.collapsible-header {
+	height: auto;
+	h1, h2, h3, h4, h5, h6 {
+		display: table-cell;
+		vertical-align: top;
+		margin: 0;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+	}
+	i {
+		width: auto;
+		line-height: inherit;
+		font-size: inherit;
+		margin-right: 0.5em;
+	}
+}
+
+.collapsible-body {
+	h1, h2, h3, h4, h5, h5, h6 {
+		padding-left: 2rem;
+	}
+	iframe, img {
+		padding-left: 2rem;
+	}
+	p:first-child {
+		padding-top: 1.5em;
+	}
+	p:last-child {
+		padding-bottom: 1.5em;
+	}
+	p {
+		padding: 0 2rem 1em 2em;
+	}
+	ul:first-child {
+		padding-top: 1.5em;
+	}
+	ul:last-child {
+		padding-bottom: 1.5em;
+	}
+	ul, ol {
+		padding: 0 2rem 1em 2em;
+	}
+}

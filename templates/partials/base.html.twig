@@ -13,8 +13,10 @@
 		<link rel="icon" type="image/png" href="{{ theme_url }}/images/favicon.png" />
 		{% block stylesheets %}
 			{% do assets.add('theme://css-compiled/materialize.css',110) %}
+			{% do assets.add('theme://css/materialdesignicons.css',110) %}
+			
+			{# TODO Move all possible theme.scss into _custom-variables.scss #}
 			{% do assets.add('theme://css-compiled/theme.css',100) %}
-			{% do assets.add('theme://css/custom.css',90) %}
 		{% endblock %}
 		{{ assets.css() }}
 
@@ -37,7 +39,7 @@
 		<footer class="page-footer">
 			<div class="footer-copyright">
 				<div class="container">
-					Materialize Theme for <a href="http://getgrav.org">Grav</a>
+					MaterializePro Theme for <a href="http://getgrav.org">Grav</a>
 				</div>
 			</div>
 		</footer>

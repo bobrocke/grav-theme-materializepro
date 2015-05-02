@@ -1,0 +1,22 @@
+/*
+|==========================================================================
+| Theme SCSS Variable Overrides
+|==========================================================================
+|
+| Theme variables that override framework variables
+|
+*/
+$primary-color: #0288D1;
+$primary-color-light: lighten($primary-color, 15%);
+$primary-color-dark: darken($primary-color, 15%);
+$secondary-color: #848108;
+$link-color: #D91824;
+
+$badge-bg-color: $secondary-color;
+
+$button-color: $secondary-color;
+
+$footer-bg-color: $primary-color;
+
+$roboto-font-path: "../../../../user/plugins/materializerpro/font/roboto/";
+$icons-font-path: "../font/mdi/";

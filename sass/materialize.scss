@@ -1,38 +1,45 @@
 @charset "UTF-8";
 
 // Mixins
-@import "components/prefixer";
-@import "components/mixins";
-@import "components/color";
+@import "../../../../user/plugins/materializerpro/sass/components/prefixer";
+@import "../../../../user/plugins/materializerpro/sass/components/mixins";
+@import "../../../../user/plugins/materializerpro/sass/components/color";
 
 // Variables;
-@import "components/variables";
+@import "../../../../user/plugins/materializerpro/sass/components/variables";
+
+// Overriding Variables;
+@import "components/theme-variables";
+@import "components/custom-variables";
 
 // Reset
-@import "components/normalize";
+@import "../../../../user/plugins/materializerpro/sass/components/normalize";
 
 // components
-@import "components/global";
-@import "components/icons-material-design";
-@import "components/grid";
-@import "components/navbar";
-@import "components/roboto";
-@import "components/typography";
-@import "components/cards";
-@import "components/toast";
-@import "components/tabs";
-@import "components/tooltip";
-@import "components/buttons";
-@import "components/dropdown";
-@import "components/waves";
-@import "components/modal";
-@import "components/collapsible";
-@import "components/materialbox";
-@import "components/form";
-@import "components/table_of_contents";
-@import "components/sideNav";
-@import "components/preloader";
-@import "components/slider";
-@import "components/date_picker/default.scss";
-@import "components/date_picker/default.date.scss";
-@import "components/date_picker/default.time.scss";
+@import "../../../../user/plugins/materializerpro/sass/components/global";
+@import "../../../../user/plugins/materializerpro/sass/components/icons-material-design";
+@import "../../../../user/plugins/materializerpro/sass/components/grid";
+@import "../../../../user/plugins/materializerpro/sass/components/navbar";
+@import "../../../../user/plugins/materializerpro/sass/components/roboto";
+@import "../../../../user/plugins/materializerpro/sass/components/typography";
+@import "../../../../user/plugins/materializerpro/sass/components/cards";
+@import "../../../../user/plugins/materializerpro/sass/components/toast";
+@import "../../../../user/plugins/materializerpro/sass/components/tabs";
+@import "../../../../user/plugins/materializerpro/sass/components/tooltip";
+@import "../../../../user/plugins/materializerpro/sass/components/buttons";
+@import "../../../../user/plugins/materializerpro/sass/components/dropdown";
+@import "../../../../user/plugins/materializerpro/sass/components/waves";
+@import "../../../../user/plugins/materializerpro/sass/components/modal";
+@import "../../../../user/plugins/materializerpro/sass/components/collapsible";
+@import "../../../../user/plugins/materializerpro/sass/components/materialbox";
+@import "../../../../user/plugins/materializerpro/sass/components/form";
+@import "../../../../user/plugins/materializerpro/sass/components/table_of_contents";
+@import "../../../../user/plugins/materializerpro/sass/components/sideNav";
+@import "../../../../user/plugins/materializerpro/sass/components/preloader";
+@import "../../../../user/plugins/materializerpro/sass/components/slider";
+@import "../../../../user/plugins/materializerpro/sass/components/date_picker/default.scss";
+@import "../../../../user/plugins/materializerpro/sass/components/date_picker/default.date.scss";
+@import "../../../../user/plugins/materializerpro/sass/components/date_picker/default.time.scss";
+
+// Overriding Styles
+@import "components/theme";
